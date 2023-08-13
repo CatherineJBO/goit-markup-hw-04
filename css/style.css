@@ -86,7 +86,7 @@ img {
 .hero-header {
     margin: 0 auto;
     max-width: 496px;
-    padding-bottom: 64px;
+    margin-bottom: 64px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -145,6 +145,10 @@ img {
 }
 .hero {
     background-color: var(--navy-blue);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/bkg-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     color: var(--white);
     text-align: center;
     font-size: 56px;
@@ -261,7 +265,6 @@ img {
 .footer .subtle-text {
     color: var(--cloud);
     width: 264px;
-    padding-top: 16px;
 }
 .portfolio {
     padding-top: 96px;
