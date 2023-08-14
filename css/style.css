@@ -9,6 +9,7 @@
     --cloud: #f4f4fd;
     --cornflower: #e7e9fc;
     --ocean: #404bbf;
+    --lightslate: #8E8F99;
 
 }
 
@@ -222,6 +223,16 @@ img {
 .benefits-list-item {
     flex-basis: calc((100% - 24px * 3) / 4);
 }
+.benefits-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background: var(--cloud);
+    margin-bottom: 8px;
+}
 .examples {
     padding: 120px 0;
 }
@@ -250,6 +261,44 @@ img {
     padding-top: 32px;
     padding-bottom: 32px;
 }
+.social-icons-team-item {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.icons-tc-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-brand);
+    fill: var(--modal-background);
+}
+.customers {
+    padding: 120px 0;
+}
+.customers-clients {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 24px;
+}
+.customers-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid var(--lightslate);
+}
+.customers-list {
+    fill: var(--lightslate);
+}
 .footer .logo-part-two {
     color: var(--cloud);
 }
@@ -265,6 +314,27 @@ img {
 .footer .subtle-text {
     color: var(--cloud);
     width: 264px;
+}
+.footer-item {
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 120px;
+
+}
+.social-line {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+.icons-footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-brand);
+    fill: var(--modal-background)
 }
 .portfolio {
     padding-top: 96px;
@@ -331,5 +401,6 @@ border-top: none;
 .card-set-item-team {
     flex-basis: calc((100% - 24px * 3) / 4);
 }
+
 
 
