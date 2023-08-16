@@ -84,7 +84,7 @@ img {
 .header {
     background-color: var(--white-background);
     border-bottom: 1px solid var(--cornflower);
-    box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .hero-header {
     margin: 0 auto;
@@ -105,7 +105,8 @@ img {
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px
+    letter-spacing: 0.32px;
+    position: relative;
 }
 .nav-menu {
     position: relative;
@@ -298,7 +299,7 @@ img {
 .social-icons-team-item {
     display: flex;
     flex-wrap: nowrap;
-    column-gap: 24px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
     margin-top: 8px;
@@ -330,7 +331,7 @@ img {
 .customers-clients-item {
     display: flex;
     flex-wrap: nowrap;
-    column-gap: 24px;
+    gap: 24px;
 }
 .customers-clients-list {
     width: calc((100% - 24px * 5)/6);
@@ -343,7 +344,7 @@ img {
     border-radius: 4px;
     border: 1px solid var(--lightslate);
     color: var(--lightslate);
-    transition-property: color, border;
+    transition-property: color, border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -537,7 +538,7 @@ border-top: none;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition-property: translate;
+    transition-property: transform;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
