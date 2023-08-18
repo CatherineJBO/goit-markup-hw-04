@@ -431,9 +431,10 @@ img {
     border-radius: 4px;
     border: 1px solid var(--cornflower, #E7E9FC);
     padding: 12px 24px;
-    transition-property: color, backgroun-color, border-color, box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -515,8 +516,8 @@ border-top: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.card-examples:hover .overlay,
-.card-examples:focus .overlay {
+.examples-link:hover .overlay,
+.examples-link:focus .overlay {
     transform: translateY(0);
 }
 
