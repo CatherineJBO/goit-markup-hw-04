@@ -367,7 +367,8 @@ img {
     margin-bottom: 16px;
 }
 .footer .subtle-text {
-    color: var(--cloud);
+    font-weight: 500;
+    color: var(--white);
     margin-bottom: 16px;
     width: 264px;
 }
@@ -454,6 +455,9 @@ img {
 }
 .examples-link {
     display: block;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 } 
 .examples-link:hover,
 .examples-link:focus {
