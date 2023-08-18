@@ -106,12 +106,9 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.32px;
-    position: relative;
-}
-.nav-menu {
-    position: relative;
 }
 .menu-list {
+    position: relative;
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -377,8 +374,11 @@ img {
 .footer-item {
     display: flex;
     flex-wrap: nowrap;
-    column-gap: 120px;
+    align-items: baseline;
 
+}
+.footer-list {
+    margin-right: 120px;
 }
 .social-line-item {
     display: flex;
